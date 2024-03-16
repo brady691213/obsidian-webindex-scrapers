@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "obsidian-webindex-scrapers"
+version = "0.1.0"
+description = ""
+authors = ["Brady Kelly <brady691213@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
