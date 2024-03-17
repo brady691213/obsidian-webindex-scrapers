@@ -1,12 +1,14 @@
 [tool.poetry]
+package-mode = false
 name = "obsidian-webindex-scrapers"
 version = "0.1.0"
-description = ""
+description = "Various web scraping tools for my Obsidian WebIndex plugin."
 authors = ["Brady Kelly <brady691213@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+playwright = "^1.42.0"
 
 
 [build-system]
